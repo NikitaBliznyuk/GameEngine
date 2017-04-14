@@ -41,6 +41,9 @@ int Display::initialize()
 	// Make the window visible
 	glfwShowWindow(window);
 
+	if (glewInit() != GLEW_OK)
+		return -3;
+
 	return 0;
 }
 

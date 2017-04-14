@@ -15,10 +15,33 @@
     <ClCompile Include="Main.cpp">
       <Filter>engineTest</Filter>
     </ClCompile>
+    <ClCompile Include="RawModel.cpp">
+      <Filter>renderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Loader.cpp">
+      <Filter>renderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>renderEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Converter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Display.h">
       <Filter>renderEngine</Filter>
     </ClInclude>
+    <ClInclude Include="RawModel.h">
+      <Filter>renderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>renderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenGL.h">
+      <Filter>renderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>renderEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Converter.h" />
   </ItemGroup>
 </Project>
